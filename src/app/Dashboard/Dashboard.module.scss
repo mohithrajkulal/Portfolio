@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+    --bg-dark: #0f172a;
+    --text-muted: #94a3b8;
+    --text-primary: #e2e8f0;
+    --accent: #38bdf8;
+    --button-hover: #0ea5e9;
+    --pure-white: #fff;
+}
+
+.main {
+    font-family: 'Poppins', sans-serif;
+    padding: 3rem 2rem;
+    padding-bottom: 0.8rem;
+    color: var(--text-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.profileContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.skillHeader {
+    background-color: var(--bg-dark);
+    color: #fff;
+    padding: 0.2rem 0.6rem;
+    font-size: 0.6rem;
+    font-weight: 400;
+    border-radius: 0.2rem;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    margin-bottom: 0.8rem;
+}
+
+
+.greeting {
+    color: var(--text-muted);
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 0 0 0.5rem 0;
+    margin: 0;
+}
+
+.name {
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: var(--accent);
+    margin: 0 0 1.2rem 0;
+}
+
+.description {
+    color: var(--text-muted);
+    font-size: 1rem;
+    max-width: 600px;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 2.4rem;
+}
+
+.viewResume {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    background-color: var(--accent);
+    color: #fff;
+    font-weight: 600;
+    padding: 0.6rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 1.2rem;
+
+    &:hover {
+        background-color: var(--button-hover);
+    }
+}
+
+.LinkdIn {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    background-color: var(--pure-white);
+    color: var(--accent);
+    font-weight: 600;
+    padding: 0.6rem 1.5rem;
+    font-size: 1rem;
+    border: 1px solid var(--button-hover);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 1.2rem;
+
+    &:hover {
+        background-color: var(--pure-white);
+    }
+}
+
+.profileImage {
+
+}

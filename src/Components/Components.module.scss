@@ -1,0 +1,92 @@
+// Navbar
+.navContainer {
+    width: 100%;
+    border: none;
+    background-color: 	#0F172A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 2rem;
+}
+
+.name {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.navButton {
+  color: #ffffff;
+  margin: 0 0.6rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.divider {
+  display: inline-block;
+  width: 1px;
+  height: 1.6rem;
+  background-color:  #38BDF8;
+  margin: 0 10px;
+  vertical-align: middle;
+  border-radius: 1rem;
+}
+
+// MovingIcons
+.iconContainer {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  background: #f9f9f9;
+  padding: 1rem 0;
+  position: relative;
+}
+
+.teckStaks {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #94a3b8;
+}
+
+.movingIcons {
+  display: inline-block;
+  white-space: nowrap;
+  animation: moveLeft 20s linear infinite;
+}
+
+.movingIcons img {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.icon {
+    width: 100%;
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+// Footer
+.footerContainer {
+    background-color: #0F172A;
+    color: #D1D5DB;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    margin-top: 0.6rem;
+}
+
+
+.letsConnect {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  color: #38BDF8;
+}
