@@ -1,7 +1,7 @@
 .main {
     padding: 3rem 2rem;
     padding-bottom: 0.8rem;
-    color: var(--text-primary);
+    color: #e2e8f0;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -14,7 +14,7 @@
 }
 
 .skillHeader {
-    background-color: var(--bg-dark);
+    background-color: #0f172a;
     color: #fff;
     padding: 0.2rem 0.6rem;
     font-size: 0.6rem;
@@ -28,7 +28,7 @@
 
 
 .greeting {
-    color: var(--text-muted);
+    color: #94a3b8;
     font-size: 1.25rem;
     font-weight: 400;
     margin: 0 0 0.5rem 0;
@@ -38,12 +38,12 @@
 .name {
     font-size: 3.5rem;
     font-weight: 600;
-    color: var(--accent);
+    color: #38bdf8;
     margin: 0 0 1.2rem 0;
 }
 
 .description {
-    color: var(--text-muted);
+    color: #94a3b8;
     font-size: 1rem;
     max-width: 600px;
     line-height: 1.7;
@@ -59,7 +59,7 @@
     display: flex;
     align-items: center;
     gap: 0.8rem;
-    background-color: var(--accent);
+    background-color: #38bdf8;
     color: #fff;
     font-weight: 600;
     padding: 0.6rem 1.5rem;
@@ -71,7 +71,7 @@
     margin-bottom: 1.2rem;
 
     &:hover {
-        background-color: var(--button-hover);
+        background-color: #0ea5e9;
     }
 }
 
@@ -79,19 +79,19 @@
     display: flex;
     align-items: center;
     gap: 0.8rem;
-    background-color: var(--pure-white);
-    color: var(--accent);
+    background-color: #fff;
+    color: #38bdf8;
     font-weight: 600;
     padding: 0.6rem 1.5rem;
     font-size: 1rem;
-    border: 1px solid var(--button-hover);
+    border: 1px solid #0ea5e9;
     border-radius: 6px;
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin-bottom: 1.2rem;
 
     &:hover {
-        background-color: var(--pure-white);
+        background-color: #fff;
     }
 }
 
