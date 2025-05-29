@@ -2,6 +2,7 @@
 
 import MovingIcons from "@/Components/MovingIcons";
 import { IoIosArrowForward } from "react-icons/io";
+import Image from "next/image";
 import styles from './Dashboard.module.scss';
 
 export default function Dashboard() {
@@ -14,7 +15,7 @@ export default function Dashboard() {
         <div className={styles.profileContainer}>
             <div>
     <p className={styles.skillHeader}>REACT DEVELOPER</p>
-      <p className={styles.greeting}>Hello, I'm</p>
+      <p className={styles.greeting}>{"Hello, I'm"}</p>
       <p className={styles.name}>Mohith</p>
       <p className={styles.description}>
         Front-End Developer specializing in React.js, with proficiency in Next.js and foundational knowledge of backend development using NestJS.
@@ -29,7 +30,14 @@ export default function Dashboard() {
       </div>
       </div>
         <div>
-            <img src="/profileImage.svg" alt="profile" className={styles.profileImage}/>
+            <Image 
+                src="/profileImage.svg" 
+                alt="profile" 
+                className={styles.profileImage} 
+                width={380}
+                height={380}
+                priority
+            />
         </div>
         </div>
         

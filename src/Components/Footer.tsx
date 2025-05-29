@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className={styles.footerContainer}>
       <div className="max-w-6xl mx-auto px-4 text-center">
-        <h2 className={styles.letsConnect}>Let's Connect</h2>
+        <h2 className={styles.letsConnect}>{"Let's Connect"}</h2>
         <div className="flex justify-center space-x-6 my-6 text-xl">
           <a
             href="https://github.com/mohithrajkulal"
