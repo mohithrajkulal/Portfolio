@@ -1,9 +1,5 @@
-'use client';
+"use client";
 
 export default function About() {
-
-  return (
-    <div className={''}>
-    </div>
-  );
+  return <div className={""}></div>;
 }

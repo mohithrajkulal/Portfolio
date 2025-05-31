@@ -1,0 +1,81 @@
+.journeyContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 2rem;
+}
+
+.aboutContainer {
+    max-width: 46%;
+
+    h3 {
+        font-size: 2.4rem;
+        font-weight: 600;
+        color: #38bdf8;
+        margin-bottom: 0.5rem;
+    }
+
+    p {
+        color: #94a3b8;
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+}
+
+.journeyTimeline {
+    position: relative;
+    padding: 2rem;
+    max-width: 46%;
+}
+
+.journeyLine {
+    position: absolute;
+    top: 0;
+    left: 24px;
+    bottom: 0;
+    width: 4px;
+    background: #38bdf8;
+}
+
+.experienceCard {
+    position: relative;
+    margin-left: 60px;
+    margin-bottom: 2.5rem;
+    padding: 1rem;
+    background: #f1f5f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+.experienceDot {
+    position: absolute;
+    left: -36px;
+    top: 1.2rem;
+    width: 16px;
+    height: 16px;
+    background-color: #38bdf8;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 4px #e0f2fe;
+}
+
+.experienceContent {
+  h3 {
+    margin: 0.2rem 0;
+    font-size: 1.2rem;
+    color: #0f172a;
+  }
+
+  p {
+    color: #94a3b8;
+    margin: 0.2rem 0 0;
+    font-size: 0.95rem;
+  }
+
+  .experienceYear {
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #38bdf8;
+  }
+}

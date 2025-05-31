@@ -1,12 +1,12 @@
 // Navbar
 .navContainer {
-    width: 100%;
-    border: none;
-    background-color: 	#0F172A;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.8rem 2rem;
+  width: 100%;
+  border: none;
+  background-color: #0f172a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 2rem;
 }
 
 .name {
@@ -17,20 +17,10 @@
 
 .navButton {
   color: #ffffff;
-  margin: 0 0.6rem;
+  margin: 0 0.8rem;
   font-size: 1.2rem;
   font-weight: 500;
   cursor: pointer;
-}
-
-.divider {
-  display: inline-block;
-  width: 1px;
-  height: 1.6rem;
-  background-color:  #38BDF8;
-  margin: 0 10px;
-  vertical-align: middle;
-  border-radius: 1rem;
 }
 
 // MovingIcons
@@ -62,7 +52,7 @@
 }
 
 .icon {
-    width: 100%;
+  width: 100%;
 }
 
 @keyframes moveLeft {
@@ -76,17 +66,65 @@
 
 // Footer
 .footerContainer {
-    background-color: #0F172A;
-    color: #D1D5DB;
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-    margin-top: 0.6rem;
+  background-color: #0f172a;
+  color: #d1d5db;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  margin-top: 0.6rem;
 }
 
+.centeredContainer {
+  max-width: 72rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+}
+
+.iconRow {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+}
+
+.iconLink {
+  color: inherit;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: #ffffff;
+  }
+}
+
+.footerDivider {
+  border-top: 1px solid #0ea5e9;
+  opacity: 0.2;
+  margin-bottom: 1.5rem;
+}
+
+.footerMadeWith {
+  font-size: 0.875rem;
+  color: #6b7280;
+
+  .nextjsText {
+    color: #ffffff;
+    font-weight: 600;
+  }
+}
+
+.footerCopyright {
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: #4b5563;
+}
 
 .letsConnect {
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 700;
-  color: #38BDF8;
+  color: #38bdf8;
 }
